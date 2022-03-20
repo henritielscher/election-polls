@@ -2,12 +2,11 @@
 
 ## Description
 
-This small we app was created during my six-months further education to make use of the browser built in Canvas API.<br>
-Basically it shows the latest election polls for each German federal state (or nationwide) in comparison fetched from the [dawum.de](https://dawum.de/) API.
+This small we app was created during my six-months further education to make use of the browser built in Canvas API. Basically it shows the latest election polls for each German federal state (or nationwide) in comparison fetched from the [dawum.de](https://dawum.de/) API.
 
 **Check out the working project [here](http://wahlumfragen.renderness.com/)**
 <br>
-_It's best used on Desktop size due to it's legend in the footer area. Although the poll sizes are calculated dynamically_
+_It's best used on Desktop size due to it's legend in the footer area although the poll sizes are calculated dynamically_
 
 Self-reflecting my work here I'm definitely aware that some functions got to much body and should have been splitted up in the favour of clean code, but since then (September '21) I learned a lot and am definitely happy with how it came out at the end.
 
@@ -50,3 +49,7 @@ _handleFoundSurveys()_
 -   imports a couple helper functions to draw the different axes of the diagram
 -   the setMeasures() method takes the given survey and canvas to then return an object with all measurements which then will be given to helper functions to draw the actual canvas
 -   when resizing the window the diagram size will be recalculated with these methods
+
+[wahl.php](/wahl.php)
+
+-   due to CORS-policy I needed to make sure to fetch the data from the server-side. Since my hosting subdomain is not SSL-certificated I had to take this detour instead of fetching with plain old JavaScript
