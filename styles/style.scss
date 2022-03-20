@@ -1,0 +1,166 @@
+/* 
+https://coolors.co/0a0908-22333b-ebebeb-ef8354
+*/
+
+$col-dark: #0a0908ff;
+$col-petrol: #22333bff;
+$col-light: #ebebebff;
+$col-accent: #ef8354ff;
+
+$font-title: "Poppins", sans-serif;
+$font-normal: "PT Serif", serif;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: $font-normal;
+	font-size: 16px;
+}
+
+header {
+	background-color: $col-petrol;
+	color: $col-light;
+	font-family: $font-title;
+	font-weight: 600;
+	top: 0;
+	left: 0;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 100;
+
+	h1 {
+		margin: 1.5rem 0;
+	}
+}
+
+footer {
+	padding: 1.5rem 0;
+	background-color: #eee;
+	color: black;
+	font-family: $font-title;
+	font-weight: 600;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 100;
+
+	ul {
+		margin: 0 auto;
+		width: 80%;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		// align-items: center;
+		gap: 1.5rem;
+	}
+
+	li {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		font-size: 16px;
+	}
+
+	span {
+		margin-right: 8px;
+		display: inline-block;
+		border-radius: 50%;
+		width: 15px;
+		height: 15px;
+		background-color: red;
+	}
+}
+
+canvas {
+	font-family: $font-normal;
+	margin-top: 1.5rem;
+}
+
+ul {
+	margin-top: 0.5rem;
+	font-size: 12px;
+	list-style: none;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.left,
+.right {
+	padding: 0 1rem;
+	min-width: 320px;
+	width: 50%;
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	label {
+		margin: 1rem;
+	}
+
+	input {
+		text-align: center;
+		margin: 0 auto;
+		font-size: 20px;
+		min-width: 220px;
+		padding: 0.5rem;
+	}
+}
+
+select {
+	// margin-top: 1rem;
+	padding: 0.5rem;
+	font-size: 16px;
+	font-family: $font-normal;
+	border: none;
+	text-align: center;
+	outline: none;
+	// width: 100%;
+
+	&:disabled {
+		color: black;
+		appearance: none;
+	}
+}
+
+.error {
+	margin-top: 1rem;
+	font-size: 18px;
+	color: red;
+}
+
+.network-error {
+	background-color: rgb(160, 2, 2);
+	color: white;
+	border-radius: 10px;
+	width: 100%;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.survey-info {
+	width: 100%;
+	display: flex;
+	gap: 2rem;
+	// justify-content: space-between;
+}
