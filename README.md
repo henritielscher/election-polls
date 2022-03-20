@@ -2,7 +2,7 @@
 
 ## Description
 
-This small we app was created during my six-months further education to make use of the browser built in Canvas API.<br>
+This small we app was created during my six-months further education to make use of the browser built in Canvas API.
 Basically it shows the latest election polls for each German federal state (or nationwide) in comparison fetched from the [dawum.de](https://dawum.de/) API.
 
 **Check out the working project [here](http://wahlumfragen.renderness.com/)**
