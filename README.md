@@ -2,7 +2,7 @@
 
 ## Description
 
-This small we app was created during my six-months further education to make use of the browser built in Canvas API. Basically it shows the latest election polls for each German federal state (or nationwide) in comparison fetched from the [dawum.de](https://dawum.de/) API.
+This small web app was created during my six-months further education to make use of the browser built in Canvas API. Basically it shows the latest election polls for each German federal state (or nationwide) in comparison fetched from the [dawum.de](https://dawum.de/) API.
 
 **Check out the working project [here](http://wahlumfragen.renderness.com/)**
 <br>
@@ -10,14 +10,14 @@ _It's best used on Desktop size due to it's legend in the footer area although t
 
 Self-reflecting my work here I'm definitely aware that some functions got to much body and should have been splitted up in the favour of clean code, but since then (September '21) I learned a lot and am definitely happy with how it came out at the end.
 
----
+
 
 ## Features
 
 -   Canvas API - a browser built-in API to draw shapes | [MDN-Link](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 -   Flatpickr - a library extending the Date Picker features | [Link](https://flatpickr.js.org/)
 
----
+
 
 ## Project Explanation
 
